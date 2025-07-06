@@ -1,0 +1,4 @@
+echo "Running terraform checks..."
+terraform fmt -check -recursive
+terraform validate
+tflint 
